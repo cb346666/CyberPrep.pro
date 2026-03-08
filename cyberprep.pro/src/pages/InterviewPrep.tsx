@@ -26,7 +26,7 @@ export default function InterviewPrep() {
 
   const chatRef = useRef(
     ai.chats.create({
-      model: "gemini-3-flash-preview",
+      model: "gemini-2.0-flash",
       config: {
         systemInstruction: `You are an expert Cybersecurity Hiring Manager conducting an interview for a SOC L1 Analyst position.
       
